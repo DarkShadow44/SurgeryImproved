@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>DarkShadow44.SurgeryImproved</packageId>
+    <name>SurgeryImproved</name>
+    <author>DarkShadow44</author>
+    <description>Rework and improve surgery.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+</ModMetaData>
