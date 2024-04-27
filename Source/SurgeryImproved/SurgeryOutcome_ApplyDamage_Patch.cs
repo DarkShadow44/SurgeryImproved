@@ -20,6 +20,11 @@ namespace KeepBlueprintSettings
                 part = part.parent ?? patient.RaceProps.body.corePart;
             }
 
+            if (part == patient.RaceProps.body.corePart)
+            {
+                preventDestruction = true;
+            }
+
             if (patient.health.WouldLosePartAfterAddingHediff(HediffDefOf.Cut, part, totalDamage))
             {
                 float partHealth = patient.health.hediffSet.GetPartHealth(part);
