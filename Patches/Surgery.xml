@@ -22,7 +22,7 @@
             <li Class="SurgeryOutcome_Failure">
                 <chance>0.05</chance>
                 <failure>true</failure>
-                <totalDamage>20</totalDamage>
+                <totalDamage>40</totalDamage>
                 <applyEffectsToPart>false</applyEffectsToPart>
                 <letterLabel>Surgery failed on {PATIENT_labelShort}</letterLabel>
                 <letterText>{SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}).</letterText>

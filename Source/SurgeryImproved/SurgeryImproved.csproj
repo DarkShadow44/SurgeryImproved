@@ -54,7 +54,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HealthUtility_GiveRandomSurgeryInjuries_Patch.cs" />
+    <Compile Include="RecipeSurgery_CheckSurgeryFail_Patch.cs" />
+    <Compile Include="SurgeryOutcome_ApplyDamage_Patch.cs" />
     <Compile Include="SurgeryImproved.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
