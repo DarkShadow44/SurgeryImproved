@@ -55,8 +55,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="RecipeSurgery_CheckSurgeryFail_Patch.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SurgeryOutcomeComp_ClampToRange_AffectQuality_Patch.cs" />
     <Compile Include="SurgeryOutcome_ApplyDamage_Patch.cs" />
-    <Compile Include="SurgeryImproved.cs" />
+    <Compile Include="SurgeryImprovedMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
